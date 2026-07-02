@@ -1,0 +1,11 @@
+# Ignore environment files
+**/.env
+**/.env.*
+
+# Ignore SSH keys
+**/ssh/keys/*
+!**/ssh/keys/.keep
+
+# Ignore Coolify databases/backups if any
+**/databases/*
+**/backups/*
